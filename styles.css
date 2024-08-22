@@ -1,0 +1,184 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.about_block{
+margin-left:15px;
+}
+
+.a1{
+	font-size: 20px;
+	color: #004D40;
+}
+
+.a2{
+	font-size: 18px;
+}
+
+.about_me{
+	font-size: 18px;
+}
+
+.about_me1{
+	font-size: 20px;
+}
+
+
+.main_headings{
+    background-color: #004D40;
+    color: #fff;
+    padding: 0px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.timeline-item{
+    padding: 0px 20px;
+}
+
+.timeline-item1{
+    text-align:center;
+    padding: 0px 10px;
+}
+
+.headings{
+	color: #004d40 ;
+}
+.resume-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #004D40;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.resume-btn:hover {
+    background-color: #00796B;
+}
+
+.resume-btn .material-icons {
+    margin-right: 8px;
+}
+
+#sidebar {
+    width: 300px;
+    background-color: #004D40;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    height: 100vh;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0);
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar .profile {
+    text-align: center;
+    padding: 20px;
+}
+
+#sidebar .profile img {
+    border-radius: 5%;
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#sidebar .profile h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#sidebar .profile h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #B2DFDB;
+}
+
+#sidebar nav {
+    flex-grow: 1;
+}
+
+#sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar nav ul li {
+    margin-bottom: 15px;
+}
+
+#sidebar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 0 30px 30px 0;
+    transition: background-color 0.3s;
+}
+
+#sidebar nav ul li a:hover {
+    background-color: #00796B;
+}
+
+#sidebar nav ul li a .material-icons {
+    margin-right: 10px;
+}
+
+#sidebar .social-links {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#sidebar .social-links a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+#sidebar .social-links a:hover {
+    color: #B2DFDB;
+}
+
+#content {
+    flex-grow: 1;
+    margin-left: 300px;
+    padding: 40px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.container {
+    max-width: 1200
+}
+
